@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Git,Hexo,Github," />
 
 
 
@@ -88,13 +88,13 @@
 
 
 <meta name="description" content="Hexo [超简单] 从0到1构建属于你的博客写在前面:想着要弄一个自己的博客,或记录一些琐碎,或分享一点知识,然后自己在网上查询如何构建自己的博客,通过查询得知用 github + hexo 可以构建一个属于自己的博客,然后自己开始搭建。由于网上的教程太多，不过大多数都差不多，所以自己就把一些最基本的常用的写在这里，也希望帮助一些人简单而快速的构建属于自己的博客。这里是我搭建个人博客的过程记录，">
-<meta name="keywords">
+<meta name="keywords" content="Git,Hexo,Github">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo系列教程之一：使用Hexo+github搭建自己的博客">
 <meta property="og:url" content="http://yoursite.com/2015/02/22/Hexo系列教程之一：使用Hexo+github搭建自己的博客/index.html">
 <meta property="og:site_name" content="Dissappear。">
 <meta property="og:description" content="Hexo [超简单] 从0到1构建属于你的博客写在前面:想着要弄一个自己的博客,或记录一些琐碎,或分享一点知识,然后自己在网上查询如何构建自己的博客,通过查询得知用 github + hexo 可以构建一个属于自己的博客,然后自己开始搭建。由于网上的教程太多，不过大多数都差不多，所以自己就把一些最基本的常用的写在这里，也希望帮助一些人简单而快速的构建属于自己的博客。这里是我搭建个人博客的过程记录，">
-<meta property="og:updated_time" content="2017-04-23T15:28:34.446Z">
+<meta property="og:updated_time" content="2017-04-23T17:32:49.072Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo系列教程之一：使用Hexo+github搭建自己的博客">
 <meta name="twitter:description" content="Hexo [超简单] 从0到1构建属于你的博客写在前面:想着要弄一个自己的博客,或记录一些琐碎,或分享一点知识,然后自己在网上查询如何构建自己的博客,通过查询得知用 github + hexo 可以构建一个属于自己的博客,然后自己开始搭建。由于网上的教程太多，不过大多数都差不多，所以自己就把一些最基本的常用的写在这里，也希望帮助一些人简单而快速的构建属于自己的博客。这里是我搭建个人博客的过程记录，">
@@ -105,7 +105,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Mist',
     sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
     fancybox: true,
     motion: true,
@@ -198,6 +198,16 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
           </a>
         </li>
       
@@ -307,6 +317,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Hexo教程/" itemprop="url" rel="index">
+                    <span itemprop="name">Hexo教程</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -382,6 +414,16 @@
     </div>
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Git/" rel="tag"># Git</a>
+          
+            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+          
+            <a href="/tags/Github/" rel="tag"># Github</a>
+          
+        </div>
       
 
       
@@ -479,22 +521,31 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
           
 
           
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
           
             
             
             <div class="site-state-item site-state-tags">
-              
-                <span class="site-state-item-count">1</span>
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">标签</span>
-              
+              </a>
             </div>
           
 
@@ -565,7 +616,7 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Pisces
+    NexT.Mist
   </a>
 </div>
 
@@ -645,13 +696,6 @@
 
   
   
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
-
-
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>

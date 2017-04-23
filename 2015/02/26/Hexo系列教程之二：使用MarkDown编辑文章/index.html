@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="wd," />
+  <meta name="keywords" content="Hexo,MarkDown," />
 
 
 
@@ -88,13 +88,13 @@
 
 
 <meta name="description" content="写在前面:前几天自己用 hexo+github 搭建了一个简单的博客,想要跟大家分享一些自己学习过程中踩的坑.在用hexo发表文章时要求用MarkDown语法,于是就在网上查了一下如何使用MarkDown语法编写内容,这里感谢简书te_lee 的 MarkDown–入门指南 .">
-<meta name="keywords" content="wd">
+<meta name="keywords" content="Hexo,MarkDown">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo系列教程之二：使用MarkDown编辑文章">
 <meta property="og:url" content="http://yoursite.com/2015/02/26/Hexo系列教程之二：使用MarkDown编辑文章/index.html">
 <meta property="og:site_name" content="Dissappear。">
 <meta property="og:description" content="写在前面:前几天自己用 hexo+github 搭建了一个简单的博客,想要跟大家分享一些自己学习过程中踩的坑.在用hexo发表文章时要求用MarkDown语法,于是就在网上查了一下如何使用MarkDown语法编写内容,这里感谢简书te_lee 的 MarkDown–入门指南 .">
-<meta property="og:updated_time" content="2017-04-23T15:25:46.975Z">
+<meta property="og:updated_time" content="2017-04-23T17:33:07.531Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo系列教程之二：使用MarkDown编辑文章">
 <meta name="twitter:description" content="写在前面:前几天自己用 hexo+github 搭建了一个简单的博客,想要跟大家分享一些自己学习过程中踩的坑.在用hexo发表文章时要求用MarkDown语法,于是就在网上查了一下如何使用MarkDown语法编写内容,这里感谢简书te_lee 的 MarkDown–入门指南 .">
@@ -105,7 +105,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Mist',
     sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
     fancybox: true,
     motion: true,
@@ -198,6 +198,16 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
           </a>
         </li>
       
@@ -306,6 +316,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Hexo教程/" itemprop="url" rel="index">
+                    <span itemprop="name">Hexo教程</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -423,7 +455,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/wd/" rel="tag"># wd</a>
+            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+          
+            <a href="/tags/MarkDown/" rel="tag"># MarkDown</a>
           
         </div>
       
@@ -435,10 +469,6 @@
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
-            
-              <a href="/2015/03/07/Hexo系列教程之三：Next主题使用、配置、优化/" rel="next" title="Hexo系列教程之三：Next主题使用、配置、优化">
-                <i class="fa fa-chevron-left"></i> Hexo系列教程之三：Next主题使用、配置、优化
-              </a>
             
           </div>
 
@@ -527,22 +557,31 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
           
 
           
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
           
             
             
             <div class="site-state-item site-state-tags">
-              
-                <span class="site-state-item-count">1</span>
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">标签</span>
-              
+              </a>
             </div>
           
 
@@ -613,7 +652,7 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Pisces
+    NexT.Mist
   </a>
 </div>
 
@@ -693,13 +732,6 @@
 
   
   
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
-
-
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
